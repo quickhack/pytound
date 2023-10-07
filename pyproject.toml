@@ -7,24 +7,27 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.6.11"
-flask = "^2.0.3"
-fuzzywuzzy = "^0.18.0"
-geocodingchn = "^1.4.0"
-gunicorn = "^21.2.0"
-jieba = "^0.42.1"
+
 numpy = "^1.19.5"
 pandas = "^1.1.5"
+
+fuzzywuzzy = "^0.18.0"
+geocodingchn = "^1.4.0"
+jieba = "^0.42.1"
 pypinyin = "^0.49.0"
+
+flask = "^2.0.3"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0.1"
 
 
 [[tool.poetry.source]]
 name = "aliyun"
 url = "https://mirrors.aliyun.com/pypi/simple/"
 priority = "default"
-
-
-[tool.poetry.group.test.dependencies]
-pytest = "^7.0.1"
 
 [build-system]
 requires = ["poetry-core"]
