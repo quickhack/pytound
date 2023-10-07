@@ -7,14 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.6.11"
-numpy = "*"
-pandas = "*"
-pypinyin = "*"
-geocodingchn = "*"
-jieba = "*"
-fuzzywuzzy = "*"
-flask = "*"
-gunicorn = "*"
+flask = "^2.0.3"
+fuzzywuzzy = "^0.18.0"
+geocodingchn = "^1.4.0"
+gunicorn = "^21.2.0"
+jieba = "^0.42.1"
+numpy = "^1.19.5"
+pandas = "^1.1.5"
+pypinyin = "^0.49.0"
 
 
 [[tool.poetry.source]]
