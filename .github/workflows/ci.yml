@@ -33,6 +33,11 @@ jobs:
         run: scripts/lint.sh
       - name: Run tests
         run: scripts/test.sh
+      # https://docs.codecov.com/docs/code-coverage-with-python
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       # https://remarkablemark.org/blog/2017/10/12/check-git-dirty/
       - name: Check git dirty
         run: |
