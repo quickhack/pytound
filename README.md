@@ -22,6 +22,9 @@
   - https://github.com/nedbat/coveragepy
   - https://github.com/pytest-dev/pytest-cov
   - https://docs.codecov.com/docs/code-coverage-with-python
+- `hypothesis`: an advanced Quickcheck style property based testing library.
+  - https://hypothesis.readthedocs.io/
+  - https://github.com/HypothesisWorks/hypothesis
 
 ## QA tools
 
